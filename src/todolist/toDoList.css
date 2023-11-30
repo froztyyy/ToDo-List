@@ -1,0 +1,173 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 23, 2023, 7:46:00 PM
+    Author     : Gwyneth Uy
+*/
+.main-bg {
+    -fx-background-color: #000000;
+}
+
+.secondary-bg {
+    -fx-background-color: #121212;
+    -fx-background-radius: 10px;
+}
+
+.btns {
+    -fx-background-color: #848884;
+    -fx-background-radius: 10px;
+}
+
+.btns:hover {
+    -fx-scale-x: 1.15;
+    -fx-scale-y: 1.15;
+}
+
+.btns:pressed {
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+.txtField {
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: gray;
+    -fx-text-fill: silver
+}
+
+.txtField:pressed {
+    -fx-prompt-text-fill: transparent
+}
+
+.txtField:focused {
+    -fx-prompt-text-fill: transparent
+}
+
+.textArea {
+    -fx-background-color: transparent;
+    -fx-border-color: #121212;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 10px;
+    -fx-prompt-text-fill: gray;
+    -fx-text-fill: silver;
+}
+
+.textArea .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.textArea .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.textArea .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.textArea:pressed {
+    -fx-prompt-text-fill: transparent;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+.textArea:focused {
+    -fx-prompt-text-fill: transparent;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+.datePicker {
+    -fx-background-color: #f0f0f0; /* Change background color */
+    -fx-text-fill: #333333; /* Change text color */
+    -fx-font-size: 14px; /* Change font size */
+}
+
+.datePicker .arrow-button {
+    -fx-background-color: #dddddd; /* Change button color */
+}
+
+.datePicker .arrow {
+    -fx-background-color: #555555; /* Change arrow color */
+}
+
+.datePicker .popup-content {
+    -fx-background-color: #ffffff; /* Change popup content background color */
+}
+
+.btnsDisplay {
+    -fx-background-color: transparent;
+    -fx-border-color: #121212;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+
+.btnsDisplay:hover {
+    -fx-scale-x: 1.01;
+    -fx-scale-y: 1.01;
+}
+
+.btnsDisplay:pressed {
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+.scrllPane {
+    -fx-background-color: transparent;
+}
+
+.scrllPane .viewport {
+    -fx-background-color: transparent;
+}
+
+.scrllPane .content{
+    -fx-background-color: transparent;
+}
+
+.scrllPane .scroll-bar:horizontal {
+    -fx-background-color: transparent; /* Set the fill color */
+}
+
+/* Vertical ScrollBar */
+.scrllPane .scroll-bar:vertical {
+    -fx-background-color: transparent; /* Set the fill color */
+}
+
+.scrllPane .scroll-bar:horizontal .thumb{
+    -fx-background-color: #121212; /* Set the fill color */
+}
+
+/* Vertical ScrollBar */
+.scrllPane .scroll-bar:vertical .thumb{
+    -fx-background-color: #121212; /* Set the fill color */
+}
+
+.btnsIcon {
+    -fx-background-color: transparent;
+}
+
+.btnsIcon:hover {
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+.btnsIcon:pressed {
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+.selected-button {
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+.txtFieldMaximize {
+    -fx-background-color: transparent;
+    -fx-text-fill: silver;
+    -fx-prompt-text-fill: gray;
+}
+
+.txtFieldMaximize:hover {
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
